@@ -3,12 +3,6 @@
 
 using namespace std;
 
-
-int charToInt(char c)
-{
-	return int(c)-48;
-}
-
 int main()
 {
 	vector<int> bigNum{2};
@@ -37,7 +31,7 @@ int main()
 	auto sum = 0;
 	for(auto i: bigNum)
 		sum+=i;
-  // Uncomment for printing Big Fat Number
+  	// Uncomment for printing Big Fat Number
 	//for(int i = bigNum.size()-1; i>=0; --i)
 	//	cout<<bigNum[i];
 	cout << "sol: " << sum;
